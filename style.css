@@ -1,0 +1,515 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  max-width: 1600px;
+  padding: 0 auto;
+}
+@font-face {
+  font-family: "DM Sans";
+  src: url(./Fonts/);
+}
+.HEAD {
+  position: relative;
+}
+.boxheader {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 600px;
+  padding-right: 20px;
+  position: relative;
+}
+.boxheader_h1 {
+  font-family: "Dm Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px;
+  color: #4b5563;
+}
+.header {
+  background-color: #00353b;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-left: 550px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-right: 80px;
+  border-bottom: 1px solid;
+  position: fixed;
+  margin-left: -310px;
+  width: 1570px;
+}
+.header_list {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+.header_list a {
+  color: #ffff;
+  text-decoration: none;
+  gap: 10px;
+  display: flex;
+}
+.header_list_button button {
+  padding: 13px 25px;
+  font-family: "Dm Sans";
+  border-radius: 8px;
+}
+.page-1 {
+  background: #00353b;
+  border-radius: 0px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 50px;
+  padding-right: 50px;
+  gap: 100px;
+  padding-bottom: 400px;
+  margin-top: 70px;
+}
+.page-1-left {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #ffff;
+}
+.page-1-left-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.page-1-left-text h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 60px;
+  line-height: 67px;
+  color: #ffffff;
+}
+.page-1-left-text p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 22px;
+  line-height: 27px;
+  color: #ffffff;
+}
+.page-1-left-text button {
+  background: #22a45a;
+  border: 1px solid #22a45a;
+  border-radius: 8px;
+  padding: 13px 25px;
+}
+.page-1-left-button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.page-1-left-button a {
+  color: #ffff;
+  outline: none;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.page-1-right-image {
+  border-radius: 24px;
+}
+.page-1-right-cups {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  top: 400px;
+  left: 770px;
+}
+.cup-1 {
+  position: relative;
+}
+.cup-2 {
+  position: absolute;
+  bottom: 50px;
+}
+.page-1-left-images {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+}
+.page-1-left-images {
+  position: relative;
+}
+.portrait1 {
+  position: absolute;
+  left: -75px;
+}
+.portrait2 {
+  position: absolute;
+  left: -47px;
+}
+.portrait3 {
+  position: relative;
+  left: 7px;
+}
+.portrait4 {
+  position: relative;
+  left: -10px;
+}
+.portrait5 {
+  position: absolute;
+  left: -20px;
+}
+.page-1-left-Startext {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 30px;
+}
+.page-1-left-Stars {
+  display: flex;
+  gap: 5px;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 120px;
+  top: 20px;
+}
+.page-1-footer {
+  width: 100%;
+  text-align: center;
+  margin-left: 350px;
+}
+.page-1-footer p {
+  display: block;
+  color: #ffff;
+  text-align: center;
+  margin: 0 auto;
+  width: 100%;
+}
+.page-2 {
+  background: #fcd8ca;
+  border-radius: 24px;
+  padding-top: 160px;
+  padding-left: 275px;
+  padding-right: 275px;
+  padding-bottom: 80px;
+  width: 80%;
+  position: absolute;
+  top: 980px;
+}
+.page-2-text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 50px;
+}
+.page-2 h5 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #1f2937;
+}
+.page-2 p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #374151;
+}
+.page-2-text-button-white {
+  padding: 4px 8px;
+  border: 1px solid #fff;
+  border-radius: 8px;
+}
+.page-2-text-button-white a {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 21px;
+  text-align: center;
+  color: #1f2937;
+  text-decoration: none;
+}
+.page-2-text-button-black {
+  background: #1f2937;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  padding: 4px 8px;
+}
+.page-2-text-button-black a {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+}
+.page-3 {
+  padding-top: 360px;
+  padding-left: 80px;
+  padding-right: 82px;
+  padding-bottom: 182px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 128px;
+}
+.page-3-left img {
+  border-radius: 24px;
+}
+.page-3-right {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.page-3-right h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #1f2937;
+}
+.page-3-right p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #4b5563;
+}
+.page-3-right button {
+  background: #1f2937;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  padding: 12px 25px;
+}
+.page-3-right button a {
+  color: #ffff;
+  text-decoration: none;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.page-3-right a {
+  color: #1f2937;
+  text-decoration: none;
+}
+.page-3-right-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.page-3-right-buttons-learn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-4 {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding-left: 80px;
+  gap: 120px;
+  padding-right: 80px;
+  padding-bottom: 180px;
+}
+.page-4-left {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-direction: column;
+  gap: 40px;
+}
+.page-4-left h3 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  color: #1f2937;
+}
+.page-4-left p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #4b5563;
+}
+.page-4-left button {
+  background: #1f2937;
+  border: 1px solid #1f2937;
+  border-radius: 8px;
+  padding: 12px 25px;
+}
+.page-4-left button a {
+  color: #ffff;
+  text-decoration: none;
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+}
+.page-4-left a {
+  color: #1f2937;
+  text-decoration: none;
+}
+.page-4-left-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+.page-4-left-buttons-learn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.page-5 {
+  display: flex;
+  flex-direction: column;
+  gap: 70px;
+  padding-bottom: 120px;
+}
+.page-5-upper h4 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 48px;
+  line-height: 58px;
+  text-align: center;
+  color: #1f2937;
+}
+.page-5-upper p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  color: #4b5563;
+}
+.page-5-lower {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 20px;
+}
+.page-5-lower-card {
+  background: #00353b;
+  border-radius: 16px;
+  width: 405px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding-left: 20px;
+  justify-content: space-between;
+  padding-top: 20px;
+  padding-bottom: 32px;
+}
+.page-5-lower-card button {
+  width: 80px;
+}
+.page-5-lower-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+.page-5-lower-text h1 {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 34px;
+  color: #ffffff;
+}
+.page-5-lower-text p {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 27px;
+  color: #ffffff;
+}
+.page-5-enroll button {
+  font-family: "DM Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #ffffff;
+  padding-left: 21px;
+  padding-right: 21px;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  width: 150px;
+  background: #22a45a;
+  border: 1px solid #22a45a;
+  border-radius: 8px;
+}
+.page-5-enroll {
+  position: relative;
+}
+.page-5-enroll-img-1,
+.page-5-enroll-img-2,
+.page-5-enroll-img-3 {
+  position: absolute;
+  left: 185px;
+  top: -124px;
+  border-radius: 170px;
+}
+.page-5-enroll-img-1 {
+  background-image: url(./images/page-5-card1.jpg);
+  height: 310px;
+  width: 210px;
+}
+.page-5-enroll-img-2 {
+  background-image: url(./images/page-5-card2.jpg);
+  height: 310px;
+  width: 210px;
+}
+.page-5-enroll-img-3 {
+  background-image: url(./images/page-5-card3.jpg);
+  width: 210px;
+  height: 310px;
+}
